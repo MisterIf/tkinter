@@ -3,7 +3,7 @@ from tkinter import *
 def set_color():
     but1.config(bg='green')
     lab.config(bg='green')
-    lab_info.config(text='Color changed')
+    lab_info.config(text='Color changed', bg='red')
 
 window = Tk()
 window.title('Git work')
