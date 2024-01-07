@@ -5,6 +5,9 @@ def set_color():
     lab.config(bg='green')
     lab_info.config(text='Color changed', bg='red')
 
+def clear():
+    pass
+
 window = Tk()
 window.title('Git work')
 window.geometry('360x240')
@@ -15,5 +18,8 @@ lab = Label(window, text='New widget')
 lab.place(x=10, y=10)
 lab_info = Label(window, text='Without changes')
 lab_info.place(x=10, y=150)
+
+but2 = Button(window, text='Null', command=clear)
+but2.place(x=200, y=100)
 
 window.mainloop()
