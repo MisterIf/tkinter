@@ -6,7 +6,7 @@ def set_color():
     lab_info.config(text='Color changed', bg='red')
 
 def clear():
-    pass
+    lab_info.config(text='', bg='yellow')
 
 window = Tk()
 window.title('Git work')
