@@ -19,7 +19,7 @@ lab.place(x=10, y=10)
 lab_info = Label(window, text='Without changes')
 lab_info.place(x=10, y=150)
 
-but2 = Button(window, text='Null', command=clear)
-but2.place(x=200, y=100)
+but2 = Button(window, text='Clear', command=clear)
+but2.place(x=250, y=100)
 
 window.mainloop()
